@@ -4,14 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio - João Guilherme</title>
-
-        <style>
-            body
-            {
-                color: white;
-                background-color:gray;
-            }
-        </style>
+        <link rel="icon" href="Programação_Logo.png">
+        
+        <link rel="stylesheet" href="style.css">
     </head>
 
 
@@ -24,24 +19,59 @@
 
 
     <body>
-        <h1>My Portfolio</h1>
-        <!-- <p style="color:crimson"> Welcome to my portfolio! </p> -->
+        <header>
+            <button id="menu-btn"><span>☰</span></button>
+
+            <h1>Portfolio</h1>
+
+            <!-- Rounded switch -->
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+            </label>
+        </header>
 
         <h2>Future Developer and excited to help you with logic problems.</h2>
 
-        <img src="Foto Currículo.jpeg" alt="Eu" width="300" height="300"> <!--placeholder image -->
-        <p>That's me!</p>
+        <figure>
 
-        <h2>About Me</h2>
-        <p>My name is João Guilherme, I'm 17 years old and I'm a student at the Institute Liberato and I'm also studying programming at the FullStack Residency by Institute Eldorado in collaboration with Petrobras.</p>
-        <p>My hobbies include playing video games, doing physical exercise and listening to music.</p>
-        <p>I love my family and i really enjoy to support the Sport Clube Internacional. Vamo Inter!</p>
+            <img src="Foto Currículo.jpeg" alt="Eu" width="300" height="300"> <!--placeholder image -->
+            <figcaption>That's Me!</figcaption>
 
-        <h3>Contact</h3>
-        <a href="https://github.com/Joaogui-Dev7" target="_blank"><img src="GitHub_Image.png" alt="GitHub" width="50" height="50"></a>
-        <a href="https://www.linkedin.com/in/joão-bianchini-332731429/" target="_blank"><img src="LinkedIn_logo.png" alt="LinkedIn" width="50" height="50"></a>
+        </figure>
+        
+        <article>
+            <h2>About Me</h2> 
+            <p>My name is João Guilherme, I'm 17 years old and I'm a student at the Institute Liberato and I'm also studying programming at the FullStack Residency by Institute Eldorado in collaboration with Petrobras.
+            I live with my family in Rio Grande do Sul, Brazil.</p>
+            <p>My hobbies include playing video games, doing physical exercise and listening to music. Actually I studing FullStack development and I, for now, prefer the backend area, cause i don't have the imagination that need to think and build a website. Personally, I find it easier to come up with solutiont to logic problems than project something to the public.
+            I love my family and I really enjoy to support the Sport Clube Internacional. Vamo Inter!</p>
+        </article>
 
-        <a href="pagina2.html" title="Go to page 2">Go to page 2</a>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Game Maker Language</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <p>Here are some of my projects:</p>
+
+        <footer>
+            <h2>Contact</h2>
+            <a href="https://github.com/Joaogui-Dev7" target="_blank"><img src="GitHub_Image.png" alt="GitHub" width="50" height="50"></a>
+            <a href="https://www.linkedin.com/in/joão-bianchini-332731429/" target="_blank"><img src="LinkedIn_logo.png" alt="LinkedIn" width="50" height="50"></a>
+
+            <button onclick="window.location.href='pagina2.html'">Go to page 2</button>
+        </footer>
+        
+        
 
     </body>
 </html>
