@@ -9,10 +9,16 @@ header
     {
         position: relative;
         color: darkred;
+        background-color: black;
         height: 80px;
 
         border-bottom: 5px solid darkred;
     }
+
+h1
+{
+    font-size: 36px;
+}
 
 #menu-btn
 {
@@ -57,10 +63,9 @@ h1
 
 figure
     {
-        
-        right: 30px;
         width: 300px;
         margin: auto;
+        transform: translateX(300px);
     }
 
 h2
@@ -70,8 +75,25 @@ h2
 
 footer
     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: black;
         border-top: 5px solid darkred;
     }
+
+footer h2
+    {
+        margin-bottom: 20px;
+    }
+
+.contatos
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
 
 
 
